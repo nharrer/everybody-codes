@@ -1,0 +1,14 @@
+{
+    "folders": [
+        {
+            "path": "2026"
+        },
+        {
+            "name": "everybodycodes (root)",
+            "path": "."
+        }
+    ],
+    "settings": {
+        "git.openRepositoryInParentFolders": "always"
+    }
+}
