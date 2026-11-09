@@ -2,6 +2,7 @@ import { existsSync, readdirSync, readFile } from "node:fs";
 import { bindNodeCallback, concatMap, defer, forkJoin, from, map, of, switchMap } from "rxjs";
 import type { Observable } from "rxjs";
 
+// use if day file: export const inputFile1 = "input-test.txt";
 type DayModule = {
     solve: (input1: string, input2: string, input3: string) => void;
     inputFile1?: string;

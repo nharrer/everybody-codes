@@ -6,9 +6,10 @@
             "type": "node",
             "request": "launch",
             "program": "${workspaceFolder}/index.ts",
-            "args": ["1"],
+            "args": ["2"],
             "cwd": "${workspaceFolder}",
             "console": "integratedTerminal",
+            "internalConsoleOptions": "openOnSessionStart",
             "skipFiles": ["<node_internals>/**"]
         }
     ]
