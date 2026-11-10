@@ -6,7 +6,7 @@
             "type": "node",
             "request": "launch",
             "program": "${workspaceFolder}/index.ts",
-            "args": ["3"],
+            "args": ["4"],
             "cwd": "${workspaceFolder}",
             "console": "integratedTerminal",
             "internalConsoleOptions": "openOnSessionStart",
