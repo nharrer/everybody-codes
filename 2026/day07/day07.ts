@@ -37,8 +37,7 @@ function blitz(sky: Sky, startid: number, starte: number, threshold: number = -1
                 const cloud = sky.clouds.get(id)!;
                 if (!cloud.exploded) {
                     cloud.energy += cnt * e;
-                    e--;
-                    if (e > 0) {
+                    if (--e > 0) {
                         cloud.connections.forEach(n => {
                             const pulseMap2 = stack2.get(n.id) ?? new Map<number, number>();
                             pulseMap2.set(e, (pulseMap2.get(e) ?? 0) + cnt);
