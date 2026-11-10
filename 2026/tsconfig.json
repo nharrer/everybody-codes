@@ -12,5 +12,5 @@
     "noUncheckedIndexedAccess": true,
     "skipLibCheck": true
   },
-  "include": ["index.ts", "day*/**/*.ts"]
+  "include": ["index.ts", "day*/**/*.ts", "util/**/*.ts"]
 }
